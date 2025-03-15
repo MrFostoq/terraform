@@ -20,6 +20,7 @@ resource "aws_instance" "web" {
     private_key = file("fostoqkey")
     host        = self.public_ip
   }
+  
   provisioner "remote-exec" {
     inline = [
       "chmod +x /tmp/web.sh",
