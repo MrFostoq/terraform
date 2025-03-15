@@ -9,7 +9,6 @@ data "aws_ami" "amiID" {
     name   = "virtualization-type"
     values = ["hvm"]
   }
-
   owners = ["099720109477"]
 }
 output "Instance_id" {
