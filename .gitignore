@@ -1,7 +1,7 @@
 .terraform/
 terraform.tfstate
 terraform.tfstate.backup
-terraform.lock.hcl
+.terraform.lock.hcl
 privet_ips.txt
 fostoqkey
 fostoqkey.pub/
