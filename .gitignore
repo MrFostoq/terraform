@@ -1,7 +1,8 @@
 .terraform/
 terraform.tfstate
-fostoqkey
 terraform.tfstate.backup
 terraform.lock.hcl
 privet_ips.txt
 fostoqkey.pub
+fostoqkey
+.gitattributes
